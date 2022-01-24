@@ -1,0 +1,191 @@
+
+
+body{
+  font-size: 18px;
+  background-size: cover;
+  font-family:arial, sans-serif;
+  letter-spacing: 1px;  
+  max-width: 100%;
+}
+.animated-text span:not(.fade) {
+  opacity:0;
+}
+.animated-text span{
+  transition:all .4s;
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+    list-style-position: inside;
+}
+ul{
+    list-style-position: inside
+}
+.photovalere{
+    width: 200px;
+    height: 230px;
+    border-radius: 25%;
+}
+.experience{
+    background-color:gray;
+}
+.hautDePage{
+    background-color: grey;
+    font-size: 20px;
+}
+
+.formationTitre{
+    background-color:grey;	
+    list-style-position: inside;
+}
+
+.formationContenu{
+  background-color: grey;	
+}
+.ag2r{ 
+    border-radius: 50%;
+}
+.eps{
+    border-radius: 50%;
+}
+.verisure{
+    border-radius: 50%;
+}
+.teleperformance{
+    border-radius: 50%;
+}
+.sitel{
+    border-radius: 50%;
+}
+
+.formation{
+    list-style-position: inside;
+}
+.afpa{
+border-radius: 50%;
+}
+.formulaireDeContactCss{
+  background-color:grey;
+}
+.g-recaptcha {
+  margin: 0 auto;
+  width: 304px;
+}
+.interet{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count : infinite;
+  animation-direction: alternate;
+ 
+ 
+}
+.experienceTitre{
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count : infinite;
+        animation-direction: alternate;
+      }
+      @keyframes example {
+        0%   {background-color: red;}
+        50%  {background-color: yellow;}
+        100% {background-color: green;}
+      }
+.formation{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count : infinite;
+    animation-direction: alternate;
+  }
+  @keyframes example {
+    0%   {background-color: red;}
+    50%  {background-color: yellow;}
+    100% {background-color: green;}
+  }
+  @keyframes example {
+    0%   {background-color: red;}
+    50%  {background-color: yellow;}
+    100% {background-color: green;}
+
+  }
+.formulaireDeContact{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count : infinite;
+    animation-direction: alternate;
+    
+  }
+  @keyframes example {
+    0%   {background-color: red;}
+    50%  {background-color: yellow;}
+    100% {background-color: green;}
+  }
+  
+  #conteneur {
+    position:relative;
+    height:485px;
+    width:331px;
+    margin:0 auto;
+  }
+  #conteneur img {
+    position:absolute;
+    left:0;
+  }
+  @keyframes fondu-in-out {
+    0%    { opacity:1; }
+    25%   { opacity:1; }
+    75%   { opacity:0; }
+    100%  { opacity:0; }
+  }
+  #conteneur img.image-de-dessus {
+    animation-name: fondu-in-out;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+  }
+  #hero .animated {
+
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
+    
+    @-webkit-keyframes up-down {
+      0% {
+        transform: translateY(10px);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+   
+  
+    .display-1 {
+      font-size: 26px;
+      
+    }
+    .display-3 {
+      font-size: 26px;
+     
+        background-image: linear-gradient(to left, white, white, white, white, white, white, white);  
+        -webkit-background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text; 
+        background-clip: text;
+        color: transparent;
+        
+    }
+    .link { color: #00FF00; } 
+    .link:hover { color: red; } 
